@@ -1,0 +1,11 @@
+.app {
+    @apply flex items-center justify-center h-screen;
+
+    .wrapper {
+        @apply flex flex-col items-center;
+
+        .cardsContainer {
+            @apply flex items-center w-full justify-between portrait:flex-col portrait:h-full;
+        }
+    }
+}

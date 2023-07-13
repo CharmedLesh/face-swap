@@ -1,0 +1,9 @@
+# server
+/face-swap-server/dist
+/face-swap-server/node_modules
+
+# client
+/face-swap-client/node_modules
+
+# py
+/face-swap-py/__pycache__

@@ -1,0 +1,19 @@
+.arrowsContainer {
+    @apply w-16 m-6 active:scale-95 cursor-pointer flex items-center justify-center md:w-18 lg:w-20 lg:m-12 xl:w-24 xl:m-14 2xl:m-16 transition-transform portrait:rotate-90 portrait:sm:m-10 portrait:sm:w-20 portrait:md:m-12;
+
+    .arrowsIcon {
+        @apply w-full h-full stroke-white transition-all duration-300 hover:stroke-rose-300;
+    }
+}
+
+@media (max-width: 281px) and (orientation: portrait) {
+    .arrowsContainer {
+        @apply w-14;
+    }
+}
+
+@media (max-width: 605px) and (orientation: landscape) {
+    .arrowsContainer {
+        @apply w-14;
+    }
+}

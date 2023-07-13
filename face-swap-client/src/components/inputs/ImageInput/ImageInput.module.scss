@@ -1,0 +1,61 @@
+.wrapper {
+    @apply flex flex-col sm:w-5/6 items-center p-2 bg-slate-400 border-dashed border-slate-500 border-2 sm:border-none sm:items-stretch sm:p-0 sm:bg-transparent;
+
+    .label {
+        @apply flex flex-col items-center sm:block;
+
+        .iconContainer {
+            @apply w-10 h-10 sm:hidden;
+
+            .uploadImageIcon {
+                @apply w-full h-full;
+            }
+        }
+
+        .labelText {
+            @apply text-xs font-semibold font-sans mt-2 sm:portrait:text-sm md:text-sm lg:text-base sm:mt-0 sm:mb-1;
+        }
+
+        .labelText::after {
+            content: 'Upload image:';
+        }
+    }
+
+    .fileInput {
+        @apply hidden p-0.5 cursor-pointer rounded text-xs font-semibold font-sans bg-slate-400 outline outline-1 outline-black file:bg-slate-500 file:border-none file:text-white file:text-xs file:rounded file:mr-1 file:cursor-pointer file:py-1 file:px-2 file:hover:bg-slate-600 file:active:scale-95 sm:inline-block sm:portrait:p-1 sm:portrait:text-xs sm:portrait:file:text-sm md:p-1 md:text-xs md:file:text-sm lg:p-2 lg:text-sm lg:outline-2 lg:file:text-base;
+    }
+
+    .info {
+        @apply text-xs font-sans outline-black sm:mt-1 lg:text-sm;
+    }
+}
+
+@media (max-width: 281px) and (orientation: portrait) {
+    .wrapper {
+        .label {
+            .labelText::after {
+                content: 'Tap to upload image' !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper {
+        .label {
+            .labelText::after {
+                content: 'Tap here to upload image';
+            }
+        }
+    }
+}
+
+@media (max-width: 605px) and (orientation: landscape) {
+    .wrapper {
+        .label {
+            .labelText::after {
+                content: 'Tap to upload image';
+            }
+        }
+    }
+}
