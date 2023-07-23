@@ -1,9 +1,9 @@
 # Face Swap
 
-<p align="center"><img src="readme-images/Screenshot_1.jpg"></p>
-<p align="center"><img src="readme-images/Screenshot_2.jpg"></p>
-<p align="center"><img src="readme-images/Screenshot_3.jpg"></p>
-<p align="center"><img src="readme-images/Screenshot_4.jpg"></p>
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1_E4RuiuiN1EkVELtCeBPKO1pyV3OZ0Gj"></p>
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1y1680_5p49T2H_mVdyQ6rtWLqylcqqXS"></p>
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1W34ZTnd1qIpYhIMrysPei8TesTBqTXDm"></p>
+<p align="center"><img src="https://drive.google.com/uc?export=view&id=1_pVonoQAhVzPkJChaDYdpfpv-BVwj69B"></p>
 
 ---
 
@@ -76,7 +76,7 @@ npm install
 
 To access a database, you must first create it. You can easily do this using PgAdmin:
 
-<p align="center"><img src="readme-images/Screenshot_5.jpg" width="500"></p>
+<p align="center"><img width="500" src="https://drive.google.com/uc?export=view&id=1nMOtvKY_dbZkVHkS_8qaqE0AFTMNj9eF"></p>
 
 > This is pgAdmin 4 v6.19.
 
